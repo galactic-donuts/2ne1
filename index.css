@@ -1,0 +1,194 @@
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height:65px;
+    padding: 10px;
+   
+    
+   
+}
+#home {
+width: 120px;
+height: 40px;
+border-radius: 10px;
+text-transform: uppercase;
+background-color: transparent;
+color:hotpink;
+border:groove 3px hotpink;
+font-family: 'Short Stack', cursive;
+
+}
+
+#about {
+width: 120px;
+height: 40px;
+border-radius: 10px;
+text-transform: uppercase;
+background-color: transparent;
+border: groove 3px orchid;
+color:orchid;
+font-family: 'Short Stack', cursive;
+font-size: 15px;
+}
+
+#members {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: groove 3px hotpink;
+    color:hotpink;
+    font-family: 'Short Stack', cursive;
+    font-size: 15px;
+    
+
+
+}
+
+#discography {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: groove 3px orchid;
+    color:orchid;
+    font-family: 'Short Stack', cursive;
+    font-size: 15px;
+    
+
+
+}
+
+#extras {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: groove 3px hotpink;
+   color:hotpink;
+   font-family: 'Short Stack', cursive;
+   font-size: 15px;
+}
+
+* {
+    margin: 0; /*removes the browswers default margin*/
+    padding: 0; /*removes the browswers default padding*/
+    box-sizing: border-box;
+    }
+
+   /* #logo {
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        }*/
+
+    body {
+        background-image:url('https://wallpaperboat.com/wp-content/uploads/2020/04/pink-space-background-desktop.jpg');
+        background-size: cover;
+    }
+
+
+
+.group-card {
+    width: 750px;
+    height: 360px;
+    background-color:black;
+    display:block;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+      
+  
+
+  #name {
+    background-color: transparent;
+      text-transform: uppercase;
+      color: hotpink;
+      border-radius: 10px;
+      width: 130px;
+      height: 30px;
+      border: groove 3px hotpink;
+      font-family: 'Short Stack', cursive;
+      font-size: 15
+  }
+
+  #activity {
+      background-color: transparent;
+      text-transform: uppercase;
+      color: orchid;
+      border-radius: 10px;
+      width: 130px;
+      height: 30px;
+      border: groove 3px orchid;
+      font-family: 'Short Stack', cursive;
+      font-size: 10px;
+  }
+
+ #company {
+    background-color: transparent;
+    text-transform: uppercase;
+    color:hotpink;
+    border-radius: 10px;
+    width: 130px;
+    height: 30px;
+    border:groove 3px hotpink;
+    font-family: 'Short Stack', cursive;
+    font-size: 10px;
+  }
+  
+  #group-image {
+      width: 310px;
+      height:300px;
+      padding: 15px;
+      border-radius: 100px;
+      float: left;
+      
+      
+  }
+  .buttons {
+      float: center;
+      margin-top: 30px;
+     
+  }
+
+  #group-description {
+      width: 400px;
+      height: 200px;
+      background-color: transparent;
+      border-radius: 10px;
+      float: left;
+      color: orchid;
+      padding: 15px;
+      margin-top: 20px;
+      overflow: auto;
+      font-size: 13px;
+      text-align: justify;
+      font-family: 'Short Stack', cursive;
+      border: groove 3px orchid;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.buttons :hover {
+    transform: skewX(7deg);
+}
+
+nav ul > *:hover{
+    transform: skewX(7deg);
+    background-color: rgb(216, 146, 146);
+    color: white;
+    border: solid 1px white;
+ }
+
+
+
